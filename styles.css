@@ -1,0 +1,242 @@
+.aria-label{
+    color:black
+}
+/* ___________________________{DeskTop View}_______________________________________ */
+@media (max-width: 1920px) {
+    body {
+        background-color:white;
+        color:black;
+        margin: 0%;
+        }
+        .Ad a{
+            /* border: solid black; */
+            margin-top: .4em;
+            width: 59%;
+            height:3vh;
+            display: flex;
+            justify-content: end;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:white;
+            text-decoration: none;
+            
+        }
+        .AdBtn{
+            /* border: solid black; */
+            margin-top: 0.35em;
+            width:41%;
+            display: flex;
+            justify-content: end;
+            height:3vh
+            
+        }
+       
+  
+    }
+
+/* _________________________[End of Desktop View]___________________________________ */
+
+/* __________________________{MidView Ipad/Tablet}__________________________________ */
+
+@media (max-width: 1580px) {
+    body {
+        background-color: lightskyblue ;
+        color:black;
+        margin: 0%;
+        }
+        .Ad a{
+            /* border: solid black; */
+            margin-top: .4em;
+            width: 60%;
+            height:3vh;
+            display: flex;
+            justify-content: end;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:white;
+            text-decoration: none;
+            
+        }
+        .AdBtn{
+            /* border: solid black; */
+            margin-top: .35em;
+            width:40%;
+            display: flex;
+            justify-content: end;
+            height:3vh
+            
+        }
+        
+        
+
+    }
+
+/* _________________________[MidView Ipad/Tablet END]________________________________ */
+/* ____________________________{Mobile View}_________________________________________ */
+
+@media (max-width: 780px) {
+    body {
+        background-color: lightgreen;
+        color:black;
+        margin: 0%;
+        }
+        .Ad a{
+            /* border: solid black; */
+            margin-top: .4em;
+            width: 65%;
+            height:3vh;
+            /* font-size: 12pt; */
+            display: flex;
+            justify-content: end;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:white;
+            text-decoration: none;
+            
+        }
+        .AdBtn{
+            /* border: solid black; */
+            margin-top: .35em;
+            width:35%;
+            display: flex;
+            justify-content: end;
+            height:3vh
+            
+        }
+    
+
+ }
+/* ___________________________[Mobile View END]________________________________________ */
+
+/* ___________________________[General HTML]____________________________________________ */
+.Ad{
+    /* Border:solid red; */
+    background-color: #004ebc;
+    display: flex;
+    color: white;
+    height: 4vh;
+    font-size: 13pt;
+   
+}
+.NavContainer{
+    /* border:solid yellow; */
+    Height:7vh;
+   
+}
+.TopNavBar{
+    /* border: solid purple; */
+    height:10vh;
+    margin: 1em;
+    margin-left: 3%;
+    margin-right:3%;
+    display:flex;
+    justify-content: space-around
+}
+.BottomNavBar{
+    /* border:solid green; */
+    display: flex;
+    justify-content: space-around;
+    width:35%;
+    margin-left:3.2%;
+
+   
+}
+.Mainlogo{
+    height:50%;
+    margin-left: 2%;
+    
+}
+
+.Closebutton{
+   background-color:#004ebc ;
+   color:white;
+   border: none;
+
+}
+.TopContainer{
+    /* border:solid black; */
+  
+}
+.MainBanner{
+    width:100%;
+}
+.MidContainer{
+    /* border:solid red; */
+    margin-top:1em;
+    
+}
+.MiddleBanner{
+    width:100%
+}
+.BottomContainer{
+    border:solid black;
+    height: 42vh;
+    margin:1em;
+    border-width:.2px
+
+}
+.SearchContainer{
+    /* border: solid blue; */
+    width: 60%;
+    margin-left: 15%
+   
+}
+/* Search Bar Input */
+input{
+    width:100%;
+    height:35%;
+    border: solid #004ebc;
+    border-width: thin;
+    margin-top: .5em;
+
+}
+.SearchIcon{
+    /* border: solid red; */
+    height:60%;
+    display:flex;
+    margin-right: 2%;
+   
+}
+.GlassIcon{
+    /* border: solid black; */
+    width:auto;
+    filter:saturate(14);
+   
+}
+.LoginContainer{
+    /* border:solid green; */
+    Display:flex;
+    width: 8%;
+    margin-top: .5em;
+    font-size: 14px;
+    margin-right: 2%;
+   
+}
+.Bag{
+    /* Border:solid red; */
+    margin-left: .3em;
+    height:35%
+}
+/* login/Register */
+p{
+    /* border:solid green; */
+    width: 90%;
+}
+.EmailButton, .HotToyButton{
+    background-color: transparent;
+    border: transparent;
+    color:#004ebc;
+    font-weight: 500;
+    margin-top: .4em;
+    
+}
+.btn{
+    background-color: transparent;
+    border: transparent;
+    color:#004ebc;
+    font-weight: 500;
+
+}
+.dropdown-menu{
+    color:#004ebc;
+  
+
+}
+
